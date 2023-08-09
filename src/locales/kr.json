@@ -1,0 +1,115 @@
+{
+  "common": {
+    "prevPost": "이전 글",
+    "toList": "목록으로",
+    "nextPost": "다음 글",
+    "writer": "작성자",
+    "dateCreated": "작성일",
+    "numericalOrder": "번호",
+    "title": "제목",
+    "error": "에러 발생됨.",
+    "edit": "수정",
+    "delete": "삭제",
+    "write": "글쓰기",
+    "noData": "현재 사용 가능한 데이터가 없습니다.",
+    "secession": "탈퇴",
+    "author": "작가",
+    "createdSuccessfully": "성공적으로 생성했습니다.",
+    "updatedSuccessfully": "성공적으로 업데이트되었습니다.",
+    "deletedSuccessfully": "성공적으로 삭제되었습니다.",
+    "noOption": "옵션 없음"
+  },
+  "nav": {
+    "cleanSea": "깨끗한 바다 부산",
+    "home": "홈",
+    "announcement": "공지사항",
+    "facilityStatus": "시설현황",
+    "content": "콘텐츠",
+    "livingLab": "리빙랩",
+    "campaign": "캠페인",
+    "freeBoard": "자유게시판",
+    "logout": "로그아웃",
+    "introduction": "소개"
+  },
+  "landing": {
+    "letBeTogetther": "함께 하자,\n깨끗한 바다 부산으로!",
+    "provideInformation": "깨바부는 부산지역 내 테트라포드와 습지 현황에 대한 정보를 제공하고 있습니다."
+  },
+  "announce": {
+    "notice": "공지사항 입니다.",
+    "selectPlaceholder": "제목",
+    "searchPlaceholder": "공지사항 검색",
+    "writeAnnouncement": "공지사항 작성",
+    "enterSubject": "제목을 입력해주세요.",
+    "pleaseEnterYourContent": "내용을 입력하세요.",
+    "registration": "등록",
+    "cancellation": "취소"
+  },
+  "login": {
+    "title": "로그인",
+    "id": "아이디",
+    "pleaseEnterYourID": "아이디를 입력하세요.",
+    "password": "비밀번호",
+    "pleaseEnterAPassword": "비밀번호를 입력하세요.",
+    "rememberID": "아이디 기억하기",
+    "check": "확인",
+    "joinLivingLab": "리빙랩 회원가입"
+  },
+  "livingLab": {
+    "notice": "리빙랩 입니다.",
+    "searchBar": {
+      "placeholder": "리빙랩 검색"
+    },
+    "writeLivingLab": "리빙랩 작성",
+    "deleteSuccess": "성공적으로 삭제되었습니다."
+  },
+  "facility": {
+    "header": "시설현황",
+    "ViewAllOfBusan": "부산 전체보기"
+  },
+  "register": {
+    "title": "리빙랩 회원가입",
+    "id": "아이디",
+    "pleaseEnterYourID": "아이디를 입력하세요.",
+    "name": "이름",
+    "pleaseEnterYourName": "이름을 입력하세요.",
+    "password": "비밀번호",
+    "pleaseEnterAPassword": "비밀번호를 입력하세요.",
+    "email": "이메일",
+    "pleaseEnterYourEmail": "이메일을 입려하세요.",
+    "verifyPassword": "비밀번호 확인",
+    "phoneNumber": "휴대폰 번호",
+    "enterPhoneNumber": "'-' 없이 입력하세요.",
+    "agreeTerm": "개인정보 수집 및 이용에 동의합니다.",
+    "signUp": "회원가입하기",
+    "required": "입력하세요",
+    "nameRex": "1~14자의 이름",
+    "emailRex": "이메일 형식이 잘못되었습니다",
+    "phoneRex": "전화가 올바른 형식이 아닙니다.",
+    "confirmPassRex": "비밀번호 오류",
+    "termRex": "정책을 수락해야 함",
+    "passwordRex": "비밀번호는 문자, 숫자, 특수문자의 조합으로 8자~23자로 입력해주세요."
+  },
+  "campaign": {
+    "notice": "리빙랩 입니다.",
+    "selectBar": {
+      "placeholder": "제목"
+    },
+    "searchBar": {
+      "placeholder": "리빙랩 검색"
+    }
+  },
+  "user": {
+    "alreadyExist": "사용자가 이미 존재합니다",
+    "livingLabManager": "[ 리빙랩 관리자 ]",
+    "manager": "[ 관리자 ]",
+    "notFound": "사용자를 찾을 수 없음",
+    "passwordIncorrect": "비밀번호 오류"
+  },
+  "content": {
+    "title": "콘텐츠",
+    "contentWriting": "콘텐츠 작성",
+    "pleaseEnterALink": "링크를 입력해주세요.",
+    "link": "링크"
+  }
+}

@@ -1,0 +1,15 @@
+#부산 path, #부산 text {
+  cursor: pointer;
+  transition: fill .4s ease;
+ }
+ 
+ #부산 .path__unactive {
+  fill: #b7dcff ;
+  transition: 1s; 
+ }
+
+
+ 
+
+
+      
