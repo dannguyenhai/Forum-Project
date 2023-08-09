@@ -1,4 +1,4 @@
-import axios, { AxiosRequestConfig } from "axios";
+import axios from "axios";
 export const api = axios.create({
   baseURL: "http://qa.forum-bulletin-board.dev.politetech.com/api/v1",
 });

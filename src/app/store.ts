@@ -1,6 +1,5 @@
 // Đường dẫn: src/app/store.ts
-
-import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
+import { configureStore} from "@reduxjs/toolkit";
 import { ThunkAction, Action } from "@reduxjs/toolkit";
 import authReducer from "../features/auth/authSlice";
 import dataReducer from "../features/Data/dataSlice";

@@ -89,7 +89,7 @@ const Navbar = () => {
   const handleScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-  const [scrolling, setScrolling] = useState(false);
+  const [, setScrolling] = useState(false);
   const [scrollTop, setScrollTop] = useState(0);
   useEffect(() => {
     function onScroll() {

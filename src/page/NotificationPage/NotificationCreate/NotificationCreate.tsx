@@ -3,8 +3,8 @@ import * as Yup from "yup";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 import { notifyFail } from "@/components/Notify/Notify";
-import { postData, putData } from "@/services/UserService";
-import { useNavigate, useParams } from "react-router-dom";
+import { postData } from "@/services/UserService";
+import { useNavigate } from "react-router-dom";
 import { CreateSuccess } from "@/components/Notify/EditSuccess";
 import { ToastContainer } from "react-toastify";
 
@@ -14,7 +14,6 @@ interface FormData {
 }
 const NotificationCreate = () => {
   const navigate = useNavigate()
-  const { id } = useParams();
   const schema = Yup.object().shape({
     title: Yup.string().required("Title is required"),
     content: Yup.string().required("Content is required"),

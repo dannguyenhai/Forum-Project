@@ -10,7 +10,7 @@ const CampaignDetail = () => {
   const navigate = useNavigate();
   const isLoading = useSelector((state: RootState) => state.auth.isLoading);
   const { id } = useParams();
-  const [ChangeId, setChangeId] = useState(id);
+  const [ChangeId] = useState(id);
   const dispatch = useDispatch();
   const [contentDetail, setContentsDetail] = useState<any>([]);
   console.log(contentDetail);

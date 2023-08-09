@@ -4,7 +4,7 @@ import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 import { notifyFail } from "@/components/Notify/Notify";
 import { postCampaignData } from "@/services/UserService";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { CreateSuccess } from "@/components/Notify/EditSuccess";
 import { ToastContainer } from "react-toastify";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,14 +20,13 @@ interface FormData {
 }
 const CampaignCreate = () => {
   const navigate = useNavigate();
-  const { id } = useParams();
   const [DataImage, setDataImage] = useState<any>();
-  const schema = Yup.object().shape({
-    title: Yup.string().required("Title is required"),
-    content: Yup.string().required("Content is required"),
-    link: Yup.string().required("Content is required"),
-    image: Yup.string().required("Content is required"),
-  });
+  // const schema = Yup.object().shape({
+  //   title: Yup.string().required("Title is required"),
+  //   content: Yup.string().required("Content is required"),
+  //   link: Yup.string().required("Content is required"),
+  //   image: Yup.string().required("Content is required"),
+  // });
   const [formData, setFormData] = useState<FormData>({
     title: "",
     content: "",

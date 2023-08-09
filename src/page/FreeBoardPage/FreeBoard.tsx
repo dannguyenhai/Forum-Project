@@ -50,7 +50,7 @@ const FreeBoard = () => {
     pageSize: PAGE_SIZE,
   });
   // SELECT
-  const handleChecked = (id: any, checked: any) => {
+  const handleChecked = (id: any) => {
     let newList= [...checkList];
     const isExist = checkList.indexOf(id) !== -1;
     if (isExist) {
@@ -230,8 +230,8 @@ const FreeBoard = () => {
                                   {" "}
                                   {role === "Admin" ? (
                                     <input
-                                      onChange={(e) =>
-                                        handleChecked(item.id, e.target.checked)
+                                      onChange={() =>
+                                        handleChecked(item.id)
                                       }
                                       className="flex items-center h-[20px] w-[20px]"
                                       type="checkbox"
